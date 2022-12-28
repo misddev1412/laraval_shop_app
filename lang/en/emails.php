@@ -1,0 +1,46 @@
+<?php
+return [
+    'orders' => [
+        'confirmed' => [
+            'title' => 'Your order [#:code] has been confirmed, thank you for your order, we will process it as soon as possible.',
+            'subject' => 'Order confirmed',
+            'greeting' => 'Hello :name',
+            'body' => 'Your order has been confirmed. We will contact you soon.',
+            'thanks' => 'Thanks',
+            'team' => 'Team',
+            'intro' => 'You have received this email because we received a order confirmation request for your account. And here is the order details:',
+            'salutation' => 'Regards',
+            'outro' => 'If you did not request a order confirmation, no further action is required.',
+            'button' => 'View Order',
+            'order' => 'Order',
+            'shipping' => 'Shipping',
+        ],
+        'step' => [
+            'confirmed' => 'Order confirmed',
+            'preparing' => 'Preparing',
+            'shipping' => 'Shipping',
+            'delivered' => 'Delivered',
+        ],
+        'attributes' => [
+            'id' => 'ID',
+            'user_id' => 'User ID',
+            'status' => 'Status',
+            'total' => 'Total',
+            'price' => 'Price',
+            'name' => 'Name',
+            'quantity' => 'Quantity',
+            'image' => 'Image',
+            'created_at' => 'Created At',
+            'order_number' => 'Order Number',
+            'unit_price' => 'Unit Price',
+            'total_price' => 'Total Price',
+            'variant' => 'Variant',
+            'subtotal' => 'Subtotal',
+            'shipping' => 'Shipping',
+            'updated_at' => 'Updated At',
+            'code' => 'Code',
+            'shipping_address' => 'Shipping Address',
+            'shipping_method' => 'Shipping Method',
+        ],
+    ]
+];
